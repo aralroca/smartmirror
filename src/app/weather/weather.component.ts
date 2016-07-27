@@ -15,7 +15,7 @@ import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
-           <img [src]="'/img/weatherIcons/'+weather.weather[0].icon+'.png'" class="img-responsive" />
+           <img [src]="'img/weatherIcons/'+weather.weather[0].icon+'.png'" class="img-responsive" />
       </div>
     </div>
   `,
